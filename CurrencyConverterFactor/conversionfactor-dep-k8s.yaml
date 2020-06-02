@@ -3,9 +3,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata: 
   labels: 
-    app: conversionfactor
+    app: conversionfactor0206
     version: v1
-  name: conversionfactor
+  name: conversionfactor0206
 spec: 
   strategy: # Default, so usually not specified
     type: RollingUpdate
@@ -15,12 +15,12 @@ spec:
   replicas: 1
   selector: 
     matchLabels: 
-      app: conversionfactor
+      app: conversionfactor0206
       version: v1
   template: 
     metadata: 
       labels: 
-        app: conversionfactor
+        app: conversionfactor0206
         version: v1
 
     spec: 
@@ -29,12 +29,12 @@ spec:
         - 
           image: "ithulasi/conversionfactor0106:1"
           imagePullPolicy: Always
-          name: conversionfactor
+          name: conversionfactor0206
           ports: 
 #          - containerPort: 8081   
           - name: httpport
             containerPort: 8083
             hostPort: 8083
           env:
-            - name: conversionfactor.eureka.url
+            - name: conversionfactor0206.eureka.url
               value: "http://eureka:8761/eureka"  

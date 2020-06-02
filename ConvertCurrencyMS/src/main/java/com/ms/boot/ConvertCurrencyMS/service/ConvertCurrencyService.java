@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 
 @Service
-@RibbonClient(name="conversionFactor")
+@RibbonClient(name="conversionfactor")
 public class ConvertCurrencyService {
 	@Autowired
 	LoadBalancerClient loadBalancerClient;

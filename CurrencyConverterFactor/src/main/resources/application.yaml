@@ -3,8 +3,6 @@ spring:
     trace-id128: true
     sampler:
       probability: 1.0
-  zipkin:
-   base-url: http://192.168.99.100:9411/
   application:
     name: conversionfactor
   h2:

@@ -33,6 +33,11 @@ spec:
           env:
             - name: conversionfactor.eureka.url
               value: "http://eureka:8761/eureka"  
+          ports: 
+#          - containerPort: 8081   
+          - name: httpport
+            containerPort: 8081
+            hostPort: 8081    
 
               
                     

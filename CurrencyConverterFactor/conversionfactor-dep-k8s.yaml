@@ -30,14 +30,11 @@ spec:
           image: "ithulasi/conversionfactor0106:1"
           imagePullPolicy: Always
           name: conversionfactor
-          env:
-            - name: conversionfactor.eureka.url
-              value: "http://eureka:8761/eureka"  
           ports: 
 #          - containerPort: 8081   
           - name: httpport
             containerPort: 8082
-            hostPort: 8082   
-
-              
-                    
+            hostPort: 8082
+          env:
+            - name: conversionfactor.eureka.url
+              value: "http://eureka:8761/eureka"  

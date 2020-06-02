@@ -7,8 +7,6 @@ spring:
    base-url: http://192.168.99.100:9411/
   application:
     name: conversionfactor
-  profiles:
-    active: dev
   h2:
     console:
       enabled: true
@@ -22,13 +20,7 @@ eureka:
     fetch-registry: true
     serviceUrl:
      defaultZone: http://104.198.194.127:8761/eureka/
-  instance:
-    instance-id: ${spring.application.name}:8082
-    lease-renewal-interval-in-seconds: 2
-    lease-expiration-duration-in-seconds: 5
-    prefer-ip-address: true
-    metadata-map:
-      zone: A
+
 management:
   endpoints:
     web:

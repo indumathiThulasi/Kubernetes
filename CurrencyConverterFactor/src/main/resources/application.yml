@@ -11,8 +11,9 @@ spring:
     console:
       enabled: true
       path: /h2
+      
 server:
-  port: 8082
+  port: 8083
 
 eureka:
   client:

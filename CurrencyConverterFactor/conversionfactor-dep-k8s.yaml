@@ -36,8 +36,8 @@ spec:
           ports: 
 #          - containerPort: 8081   
           - name: httpport
-            containerPort: 8081
-            hostPort: 8081    
+            containerPort: 8082
+            hostPort: 8082   
 
               
                     

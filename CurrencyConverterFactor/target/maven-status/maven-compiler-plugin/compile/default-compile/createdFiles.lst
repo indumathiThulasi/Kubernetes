@@ -1,0 +1,6 @@
+com\ccf\CurrencyConverterFactor\ConversionFactor.class
+com\ccf\CurrencyConverterFactor\ConversionFactorRepository.class
+com\ccf\CurrencyConverterFactor\LoadConversionfactor.class
+com\ccf\CurrencyConverterFactor\ConversionFactorController.class
+com\ccf\CurrencyConverterFactor\CurrencyConverterFactorApplication.class
+com\ccf\CurrencyConverterFactor\ConversionFactorException.class

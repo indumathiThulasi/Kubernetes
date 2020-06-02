@@ -1,0 +1,5 @@
+com\ms\boot\ConvertCurrencyMS\ConvertCurrencyMsApplication.class
+com\ms\boot\ConvertCurrencyMS\client\CurrencyFactorClient.class
+com\ms\boot\ConvertCurrencyMS\ConvertCurrencyController.class
+com\ms\boot\ConvertCurrencyMS\client\CurrencyFactorFallback.class
+com\ms\boot\ConvertCurrencyMS\service\ConvertCurrencyService.class
